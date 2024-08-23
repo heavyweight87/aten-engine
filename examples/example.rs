@@ -1,6 +1,11 @@
-use aten_engine::add;
+use aten_engine::engine::Engine;
 
 fn main() {
-    let result = add(2, 2);
-    println!("2 + 2 = {}", result);
+
+    let res = Engine::run();
+    if res.is_err() {
+        println!("Error: {:?}", res.err().unwrap());
+    }
+    println!("Application exiting");
+
 }
