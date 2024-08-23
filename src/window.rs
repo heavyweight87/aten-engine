@@ -19,7 +19,7 @@ impl WindowManager {
         let event_loop: EventLoop<()> = EventLoop::new().unwrap();
         event_loop.set_control_flow(ControlFlow::Poll);
         event_loop.run_app(self)?;
-        return Ok(())
+        Ok(())
     }
 }   
 
