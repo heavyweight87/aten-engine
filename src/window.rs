@@ -3,7 +3,6 @@ use winit::event::WindowEvent;
 use winit::event_loop::{ActiveEventLoop, ControlFlow, EventLoop};
 use winit::window::{Window, WindowId};
 
-
 pub struct WindowManager {
     window: Option<Window>,
  }

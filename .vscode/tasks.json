@@ -4,6 +4,7 @@
 		{
 			"type": "cargo",
 			"command": "build",
+			"args":["--example", "example"],
 			"problemMatcher": [
 				"$rustc"
 			],
@@ -11,7 +12,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "rust: cargo build"
+			"label": "cargo build"
 		}
 	]
 }

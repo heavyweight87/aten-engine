@@ -1,5 +1,6 @@
 pub mod window;
 pub mod engine;
+pub mod adapter;
 
 #[cfg(test)]
 mod tests {
